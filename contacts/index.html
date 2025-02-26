@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="Contatti | Gabriele Abd Alla Awad" >
+    <meta property="og:description" content="Cerchi informazioni o hai qualche domanda? Non esitare a contattarmi!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="">
+    <meta property="og:image" content="assets/img/og-preview1250x650.jpg">
+    <meta property="og:image:width" content="1250">
+    <meta property="og:image:height" content="650">
+    <meta property="og:locale" content="it_IT">
+    <!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/apple-touch-icon.png"> <!-- LOGO FONT: SORA -->
+    <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon-16x16.png">
+    <link rel="manifest" href="../assets/img/site.webmanifest">
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <!-- BOOTRSTRAP ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>Contatti | Gabriele Abd Alla Awad</title>
+</head>
+<body class="vh-100">
+<header>
+    <!-- STICKY NAVBAR -->
+      <nav class="navbar navbar-expand-md sticky-top bg-dark" data-bs-theme="dark">
+        <div class="container-xxl">
+          <a class="navbar-brand" href="../"> <img src="../assets/img/android-chrome-192x192.png" alt="Logo" height="30"> Gabriele Abd Alla Awad</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav text-center">
+              <li class="nav-item">
+                <a class="nav-link" href="../">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../#about-me">Chi sono?</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../projects/">Progetti</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./">Contatti</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+</header>
+<main>
+    <!-- CONTACT FORM -->
+      <div class="container col-xxl-8 my-lg-5 px-4 py-5 text-center">
+        <h1 class="display-3 fw-medium mb-3">Contattami!</h3>
+        <p class="lead">Compila il form qua sotto e ricevrai una risposta il prima possibile.</p>
+      </div>
+      <div class="container col-md-8 col-lg-6 col-xl-5 col-xxl-4">
+        <form class="row g-3" id="contact-form">
+          <div class="mb-2">
+            <label for="name" class="form-label">Nome e Cognome *</label>
+            <input type="text" class="form-control" id="name" name="user_name" placeholder="Mario Rossi" required>
+          </div>
+          <div class="mb-2">
+            <label for="mail" class="form-label">Indirizzo email *</label>
+            <input type="email" class="form-control" id="mail" name="user_email" placeholder="email@esempio.com" required>
+          </div>
+          <div class="mb-2">
+            <label for="msg" class="form-label">Messaggio *</label>
+            <textarea id="msg" class="form-control" name="message" rows="5"></textarea>
+          </div>
+          <div>
+            <button class="btn btn-warning btn-lg" type="submit" value="Send">Invia</button>
+          </div>
+        </form>
+      </div>
+      <div class="container col-xxl-8 my-lg-5 px-4 py-5">
+        <p class="text-center fs-5">Puoi raggiungermi anche attraverso i miei canali social, oppure visitare la mia pagina Github.</p>
+           <div class="row">
+            <ul class="nav justify-content-evenly px-3 mt-3">
+              <li class="nav-item text-center px-2 ms-3">
+                Instagram
+                <a class="nav-link" href="https://www.instagram.com/gabriele.abdalla/" target="_blank" rel="noopener">
+                  <i class="bi bi-instagram" style="color: #C13584 ; font-size: 48px;"></i>
+                </a>
+              </li>
+              <li class="nav-item text-center">
+                Linkedin
+                <a class="nav-link" href="https://www.linkedin.com/in/gabriele-abd-alla-awad-76397a196/" target="_blank" rel="noopener">
+                  <i class="bi bi-linkedin" style="color: #0077B5 ; font-size: 48px;"></i>
+                </a>
+              </li>
+              <li class="nav-item text-center px-2 me-3">
+                Github
+                <a class="nav-link" href="https://github.com/GabryAbdy" target="_blank" rel="noopener">
+                  <i class="bi bi-github" style="color: #24292e ; font-size: 48px;"></i>
+                </a>
+              </li>
+            </ul>
+           </div>
+        </div>
+      </div>
+</main>
+<!-- FOOTER -->
+<div class="container mt-auto">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <!-- COPYRIGHT -->
+    <div class="col-12 col-sm-7 d-flex align-items-center px-3 my-4">
+      <a href="../" class="me-2"><img src="../assets/img/favicon-32x32.png" height="24"></a>
+      <span class="text-body-secondary"> © 2025 Gabriele Abd Alla Awad</span>
+    </div>
+    <!-- SOCIAL LINKS -->
+    <ul class="nav col-md-4 px-3 justify-content-end list-unstyled d-flex text">
+      <li class="me-2">
+        <a href="https://github.com/GabryAbdy" target="_blank" rel="noopener" class="text-body-secondary">
+          <i class="bi bi-github" style="font-size: 24px;"></i>
+        </a>
+      </li>
+      <li class="mx-2">
+        <a href="https://www.instagram.com/gabriele.abdalla/" target="_blank" rel="noopener" class="text-body-secondary">
+          <i class="bi bi-instagram" style="font-size: 24px;"></i>
+        </a>
+      </li>
+      <li class="mx-2">
+        <a href="https://www.linkedin.com/in/gabriele-abd-alla-awad-76397a196/" target="_blank" rel="noopener" class="text-body-secondary">
+          <i class="bi bi-linkedin" style="font-size: 24px;"></i>
+        </a>
+      </li>
+    </ul>
+  </footer>
+</div>
+<!-- SCRIPT BOOTSTRAP -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- EMAILJS -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function() {
+        emailjs.init({
+          publicKey: "q88xoU353WtvSizwE",
+          blockHeadless: true,
+          limitRate: {
+            throttle: 10000,
+          },
+        });
+    })();
+</script>
+<script type="text/javascript">
+  window.onload = function() {
+      document.getElementById("contact-form").addEventListener("submit", function(event) {
+          event.preventDefault();
+          emailjs.sendForm("contact_service", "contact_form", this)
+              .then(() => {
+                  console.log("Email inviata con successo!");
+              }, (error) => {
+                  console.error("Errore nell'invio", error);
+              });
+        });
+    }
+</script>   
+</body>
+</html>
