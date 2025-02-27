@@ -12,4 +12,4 @@ The "assets" folder contain three sub-folders:
 
 I used Bootstrap as a framework, Fontawesome for some icons and EmailJS for the contact form.
 
-I will update this project as soon as I will achive more skills.
+I will update this project as soon as I will improve my skills.
